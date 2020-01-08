@@ -1,6 +1,6 @@
 package com.christianleonhard.utils;
 /**
- * @Program: datacenter
+ * @Program: utils
  * @Description:
  * @Author: Li Lin
  * @Date:Create：in 2019-11-27 10:56
@@ -14,7 +14,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * @Program: datacenter
+ * @Program: utils
  * @Description: 时间/字符串转换工具
  * @Author: Li Lin
  * @Create: 2019-11-27 10:56
