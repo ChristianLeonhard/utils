@@ -19,6 +19,14 @@ import java.io.File;
 public class QRCodeTest {
     public static void main(String[] args) {
         String str = "https://www.baidu.com/";
-        QrcodeUtils.createQrcode(str, 200,null);
+        byte[] qrcode = QrcodeUtils.createQrcode(str, null);
+        File qrcodeToFile = QrcodeUtils.createQrcodeToFile(str, null);
+        String qrcodeToFilePath = QrcodeUtils.createQrcodeToFilePath(str, null);
+        System.out.println(qrcodeToFilePath);
+        String qrcodeToFileAbsolutePath = QrcodeUtils.createQrcodeToFileAbsolutePath(str, null);
+        System.out.println(qrcodeToFileAbsolutePath);
+        String qrcodeToFileCanonicalPath = QrcodeUtils.createQrcodeToFileCanonicalPath(str, null);
+        System.out.println(qrcodeToFileCanonicalPath);
     }
+
 }
