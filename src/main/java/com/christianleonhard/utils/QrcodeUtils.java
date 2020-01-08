@@ -102,7 +102,7 @@ public class QrcodeUtils {
 
   /**
    * 创建生成默认高度(400)的二维码图片
-   * 可以指定是否贷logo
+   * 可以指定是否带logo
    *
    * @param content  二维码内容
    * @param logoFile logo 文件对象，可以为空
