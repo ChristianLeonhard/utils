@@ -7,7 +7,6 @@
  */
 
 import com.christianleonhard.utils.QrcodeUtils;
-
 import java.io.File;
 
 /**
