@@ -16,7 +16,7 @@ import com.christianleonhard.utils.GetPinYin;
  **/
 public class PinyinTest {
     public static void main(String[] args) {
-        System.out.println(GetPinYin.getPinYin("颜丽玲"));
-        System.out.println(GetPinYin.getPinYinHeadChar("颜丽玲"));
+        System.out.println(GetPinYin.getPinYin("阿里巴巴"));
+        System.out.println(GetPinYin.getPinYinHeadChar("阿里巴巴"));
     }
 }
