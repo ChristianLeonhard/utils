@@ -6,6 +6,7 @@
  * @Modified By：
  */
 
+import com.christianleonhard.utils.GetPropertyUtils;
 import com.christianleonhard.utils.QrcodeUtils;
 import java.io.File;
 
@@ -26,6 +27,7 @@ public class QRCodeTest {
         System.out.println(qrcodeToFileAbsolutePath);
         String qrcodeToFileCanonicalPath = QrcodeUtils.createQrcodeToFileCanonicalPath(str, null);
         System.out.println(qrcodeToFileCanonicalPath);
+
     }
 
 }

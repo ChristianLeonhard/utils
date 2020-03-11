@@ -88,7 +88,12 @@
             <artifactId>lombok</artifactId>
             <version>1.16.20</version>
         </dependency>
-
+       <!--根据汉字得拼音-->
+        <dependency>
+            <groupId>com.belerweb</groupId>
+            <artifactId>pinyin4j</artifactId>
+            <version>2.5.0</version>
+        </dependency>
     </dependencies>
 
     <build>
