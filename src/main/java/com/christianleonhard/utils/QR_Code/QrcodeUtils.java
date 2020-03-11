@@ -1,4 +1,4 @@
-package com.christianleonhard.utils;
+package com.christianleonhard.utils.QR_Code;
 /**
  * @Program: utils
  * @Description:
@@ -7,9 +7,6 @@ package com.christianleonhard.utils;
  * @Modified By：
  */
 
-import com.christianleonhard.other.BufferedImageLuminanceSource;
-import com.christianleonhard.other.MatrixToImageWriter;
-import com.christianleonhard.other.MatrixToLogoImageConfig;
 import com.google.common.base.Charsets;
 import com.google.common.collect.Maps;
 import com.google.zxing.*;

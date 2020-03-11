@@ -6,8 +6,7 @@
  * @Modified By：
  */
 
-import com.christianleonhard.utils.GetPropertyUtils;
-import com.christianleonhard.utils.QrcodeUtils;
+import com.christianleonhard.utils.QR_Code.QrcodeUtils;
 import java.io.File;
 
 /**

@@ -8,7 +8,7 @@ package com.christianleonhard.utils; /**
 
 /**
  * @Program: utils
- * @Description:
+ * @Description: 获取系统信息工具
  * @Author: Li Lin
  * @Create: 2020-01-08 10:37
  **/

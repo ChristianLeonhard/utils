@@ -1,4 +1,4 @@
-package com.christianleonhard.other;
+package com.christianleonhard.utils.QR_Code;
 /**
  * @Program: utils
  * @Description:
