@@ -350,25 +350,4 @@ public class DateUtils {
         return list;
     }
 
-    public static void main(String[] args) {
-        Date endDayOfLastWeek = getEndDayOfLastWeek();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String format = simpleDateFormat.format(endDayOfLastWeek);
-        System.out.println(format);
-
-        Date endDayOfLastMonth = getEndDayOfLastMonth();
-        SimpleDateFormat simpleDateFormat1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String format1 = simpleDateFormat1.format(endDayOfLastMonth);
-        System.out.println(format1);
-
-
-        Calendar cal=Calendar.getInstance();
-        int i = cal.get(Calendar.DATE);
-        System.out.println(i);
-
-        Date beginDayOfMonth = getBeginDayOfMonth();
-        Date nextDay = getNextDay(beginDayOfMonth, 15);
-        String format12 = simpleDateFormat1.format(nextDay);
-        System.out.println(format12);
-    }
 }
