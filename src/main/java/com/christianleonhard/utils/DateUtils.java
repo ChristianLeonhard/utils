@@ -2,7 +2,7 @@ package com.christianleonhard.utils;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2019-11-27 10:56
  * @Modified By：
  */
@@ -16,7 +16,7 @@ import java.util.*;
 /**
  * @Program: utils
  * @Description: 时间/字符串转换工具
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2019-11-27 10:56
  **/
 public class DateUtils {

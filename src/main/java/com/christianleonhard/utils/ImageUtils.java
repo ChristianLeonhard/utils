@@ -2,7 +2,7 @@ package com.christianleonhard.utils;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-09 09:37
  * @Modified By：
  */
@@ -25,7 +25,7 @@ import javax.imageio.ImageIO;
 /**
  * @Program: utils
  * @Description: 图片工具
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-09 09:37
  **/
 public class ImageUtils {

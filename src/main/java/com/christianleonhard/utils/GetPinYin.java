@@ -1,7 +1,7 @@
 package com.christianleonhard.utils; /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-03-05 20:20
  * @Modified By：
  */
@@ -16,7 +16,7 @@ import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombi
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-03-05 20:20
  **/
 public class GetPinYin {

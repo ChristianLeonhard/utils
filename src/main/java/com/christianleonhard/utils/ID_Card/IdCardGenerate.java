@@ -1,8 +1,8 @@
-package com.christianleonhard.utils;
+package com.christianleonhard.utils.ID_Card;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-14 14:21
  * @Modified By：
  */
@@ -10,7 +10,7 @@ package com.christianleonhard.utils;
 /**
  * @Program: utils
  * @Description: 身份证第18位生成
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-14 14:21
  **/
 public class IdCardGenerate {

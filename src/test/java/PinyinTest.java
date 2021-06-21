@@ -1,7 +1,7 @@
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-03-05 20:30
  * @Modified By：
  */
@@ -11,7 +11,7 @@ import com.christianleonhard.utils.GetPinYin;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-03-05 20:30
  **/
 public class PinyinTest {

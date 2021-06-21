@@ -2,7 +2,7 @@ package com.christianleonhard.utils;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-09 09:42
  * @Modified By：
  */
@@ -15,7 +15,7 @@ import java.util.UUID;
 /**
  * @Program: utils
  * @Description: 订单号生成工具
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-09 09:42
  **/
 public class OrderNumUtils {

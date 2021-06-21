@@ -1,8 +1,8 @@
-package com.christianleonhard.utils;
+package com.christianleonhard.utils.ID_Card;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-14 14:21
  * @Modified By：
  */
@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
 /**
  * @Program: utils
  * @Description: 身份证有效校验
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-14 14:21
  **/
 

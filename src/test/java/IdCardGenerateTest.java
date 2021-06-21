@@ -1,18 +1,18 @@
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-14 15:06
  * @Modified By：
  */
 
-import com.christianleonhard.utils.IdCardGenerate;
+import com.christianleonhard.utils.ID_Card.IdCardGenerate;
 import java.util.Scanner;
 
 /**
  * @Program: utils
  * @Description: 身份证号第18位生成
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-14 15:06
  **/
 public class IdCardGenerateTest {

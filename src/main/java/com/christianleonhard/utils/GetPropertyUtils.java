@@ -1,7 +1,7 @@
 package com.christianleonhard.utils; /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-08 10:37
  * @Modified By：
  */
@@ -9,7 +9,7 @@ package com.christianleonhard.utils; /**
 /**
  * @Program: utils
  * @Description: 获取系统信息工具
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-08 10:37
  **/
 public class GetPropertyUtils {

@@ -1,12 +1,12 @@
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-14 14:25
  * @Modified By：
  */
 
-import com.christianleonhard.utils.IdCardVerification;
+import com.christianleonhard.utils.ID_Card.IdCardVerification;
 
 import java.text.ParseException;
 import java.util.Scanner;
@@ -14,7 +14,7 @@ import java.util.Scanner;
 /**
  * @Program: utils
  * @Description: 身份证号有效性测试
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-14 14:25
  **/
 public class IdCarCheckTest {

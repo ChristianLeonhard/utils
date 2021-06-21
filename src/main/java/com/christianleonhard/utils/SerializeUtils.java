@@ -2,7 +2,7 @@ package com.christianleonhard.utils;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2020-01-09 09:24
  * @Modified By：
  */
@@ -16,7 +16,7 @@ import java.io.ByteArrayOutputStream;
 /**
  * @Program: utils
  * @Description: 序列化工具类，基于hessian
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2020-01-09 09:24
  **/
 public class SerializeUtils {

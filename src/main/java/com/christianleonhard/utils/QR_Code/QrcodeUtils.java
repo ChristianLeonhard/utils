@@ -2,7 +2,7 @@ package com.christianleonhard.utils.QR_Code;
 /**
  * @Program: utils
  * @Description:
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Date:Create：in 2019-11-27 10:56
  * @Modified By：
  */
@@ -30,7 +30,7 @@ import java.util.Map;
 /**
  * @Program: utils
  * @Description: 二维码生成工具
- * @Author: Li Lin
+ * @Author: MarcoWatermelon
  * @Create: 2019-11-27 10:56
  **/
 public class QrcodeUtils {
