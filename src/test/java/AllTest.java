@@ -6,8 +6,7 @@
  * @Modified By：
  */
 
-import java.text.DecimalFormat;
-import java.text.Format;
+import com.christianleonhard.utils.DateUtils;
 
 /**
  * @Program: utils
@@ -17,9 +16,7 @@ import java.text.Format;
  **/
 public class AllTest {
     public static void main(String[] args) {
-        int i = 1;
-        Format f1 = new DecimalFormat("000");
-        String format = f1.format(i);
-        System.out.println(format);
+        int differenceOnlyMonth = DateUtils.getDifferenceOnlyMonth("2023-09-24", "2023-10-24");
+        System.out.println(differenceOnlyMonth);
     }
 }

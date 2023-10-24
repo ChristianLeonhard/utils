@@ -21,6 +21,10 @@ import java.util.*;
  **/
 public class DateUtils {
 
+    private static final String FORMATSTR_DATE = "yyyy-MM-dd";
+
+    private static final String FORMATSTR_TIME = "yyyy-MM-dd HH:mm:ss";
+
     /**
      * date对象转换成String (datetime)
      *
@@ -29,7 +33,7 @@ public class DateUtils {
      */
     public static String getFormatDate(Date date) {
 
-        DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        DateFormat format = new SimpleDateFormat(FORMATSTR_TIME);
         return format.format(date);
     }
 
@@ -41,7 +45,7 @@ public class DateUtils {
      * @throws ParseException
      */
     public static Date getDate(String date) throws ParseException {
-        DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        DateFormat format = new SimpleDateFormat(FORMATSTR_TIME);
         return format.parse(date);
     }
 
@@ -350,4 +354,32 @@ public class DateUtils {
         return list;
     }
 
+    //计算两个时间的月差
+    public static int getDifferenceOnlyMonth(String start, String end) {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        String str1 = start.substring(0, 10);
+        //String str1 = start.substring(0, 7);
+        String str2 = end.substring(0, 10);
+        //String str2 = end.substring(0, 7);
+        Calendar bef = Calendar.getInstance();
+        Calendar aft = Calendar.getInstance();
+        try {
+            bef.setTime(sdf.parse(str1));
+            aft.setTime(sdf.parse(str2));
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        //判断日
+        String day1 = start.substring(8,10);
+        String day2 = end.substring(8,10);
+        if(Integer.parseInt(day1)>Integer.parseInt(day2)){
+            int result = aft.get(Calendar.MONTH) - bef.get(Calendar.MONTH)-1;
+            int month = (aft.get(Calendar.YEAR) - bef.get(Calendar.YEAR)) * 12;
+            return Math.abs(month + result);
+        }else{
+            int result = aft.get(Calendar.MONTH) - bef.get(Calendar.MONTH);
+            int month = (aft.get(Calendar.YEAR) - bef.get(Calendar.YEAR)) * 12;
+            return Math.abs(month + result);
+        }
+    }
 }
