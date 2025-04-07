@@ -35,8 +35,8 @@ public class ExcelRead {
         double br = baseNumber + (baseNumber * rise); // br 的计算公式
         double bl = baseNumber - (baseNumber * lower); // bl 的计算公式
 
-        System.out.println("Processing Excel file: " + excelFilePath); // 添加日志输出
-        System.out.println("Base Number: " + baseNumber + ", Rise: " + rise + ", Lower: " + lower); // 添加日志输出
+        //System.out.println("Processing Excel file: " + excelFilePath); // 添加日志输出
+        //System.out.println("Base Number: " + baseNumber + ", Rise: " + rise + ", Lower: " + lower); // 添加日志输出
 
         for (Row row : sheet) {
             if (row.getRowNum() < 2) { // 跳过前三行
@@ -63,13 +63,13 @@ public class ExcelRead {
                     cellF = row.createCell(6);
                 }
                 cellF.setCellValue(bl);
-                StringBuffer logMessage = new StringBuffer();
-                logMessage.append(valueA).append(", 最高： ").append(valueC).append(", 最低： ").append(valueD);
+                //StringBuffer logMessage = new StringBuffer();
+                //logMessage.append(valueA).append(", 最高： ").append(valueC).append(", 最低： ").append(valueD);
 
                 if (bl <= valueC && bl >= valueD) {
                     baseNumber = valueD; // 更新 baseNumber 为 valueD
-                    logMessage.append(", 最低买入： ").append(bl);
-                    logMessage.append(" ，最低基数为:").append(baseNumber);
+                    //logMessage.append(", 最低买入： ").append(bl);
+                    //logMessage.append(" ，最低基数为:").append(baseNumber);
 
                     // 写入新的 baseNumber 到 H 列
                     Cell cellG = row.getCell(7);
@@ -81,8 +81,8 @@ public class ExcelRead {
                 if (br <= valueC && br >= valueD) {
                     if (!(bl <= valueC && bl >= valueD)) { // 只有在第一个条件不满足时才更新 baseNumber 为 valueC
                         baseNumber = valueC; // 更新 baseNumber 为 valueC
-                        logMessage.append(", 最高卖出： ").append(br);
-                        logMessage.append(" ，最高基数为:").append(baseNumber);
+                        //logMessage.append(", 最高卖出： ").append(br);
+                        //logMessage.append(" ，最高基数为:").append(baseNumber);
 
                         // 写入新的 baseNumber 到 F 列
                         Cell cellG = row.getCell(5);
@@ -92,7 +92,7 @@ public class ExcelRead {
                         cellG.setCellValue(baseNumber);
                     }
                 }
-                System.out.println(logMessage.toString()); // 输出拼接后的日志信息
+                //System.out.println(logMessage.toString()); // 输出拼接后的日志信息
             }
         }
 
@@ -101,7 +101,7 @@ public class ExcelRead {
         workbook.close();
         fis.close();
         fos.close();
-        System.out.println("Excel file processed and saved successfully."); // 添加日志输出
+        //System.out.println("Excel file processed and saved successfully."); // 添加日志输出
     }
 
     private static double getNumericCellValue(Cell cell) {
