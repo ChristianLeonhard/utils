@@ -1,0 +1,5 @@
+minio:
+  url: http://10.:19000 #换成自己的minio服务端地址
+  accessKey: lilintest # 用户名
+  secretKey: Wlzx2002@ # 密码
+  bucketName: lilintest  # bucketName指的就是之前创建的MinIO桶Bucket

@@ -16,7 +16,7 @@ import com.christianleonhard.utils.DateUtils;
  **/
 public class AllTest {
     public static void main(String[] args) {
-        int differenceOnlyMonth = DateUtils.getDifferenceOnlyMonth("2023-09-24", "2023-10-24");
+        int differenceOnlyMonth = DateUtils.getDifferenceOnlyMonth("2023-09-26", "2023-10-24");
         System.out.println(differenceOnlyMonth);
     }
 }
