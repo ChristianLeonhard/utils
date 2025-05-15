@@ -373,11 +373,15 @@ public class DateUtils {
         String day1 = start.substring(8,10);
         String day2 = end.substring(8,10);
         if(Integer.parseInt(day1)>Integer.parseInt(day2)){
-            int result = aft.get(Calendar.MONTH) - bef.get(Calendar.MONTH)-1;
+            int i = aft.get(Calendar.MONTH);
+            int j = bef.get(Calendar.MONTH);
+            int result = i - j -1;
             int month = (aft.get(Calendar.YEAR) - bef.get(Calendar.YEAR)) * 12;
             return Math.abs(month + result);
         }else{
-            int result = aft.get(Calendar.MONTH) - bef.get(Calendar.MONTH);
+            int i = aft.get(Calendar.MONTH);
+            int j = bef.get(Calendar.MONTH);
+            int result = i - j;
             int month = (aft.get(Calendar.YEAR) - bef.get(Calendar.YEAR)) * 12;
             return Math.abs(month + result);
         }
